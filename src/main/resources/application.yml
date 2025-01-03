@@ -1,16 +1,16 @@
 #端口号配置
 server:
-  port: 9361
+  port: 10000
 #数据库连接配置
 spring:
   application:
-    name: LibraryManager
+    name: LibraryManagement
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/library_manager?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
     username: root
-    password: thg123456
+    password: ******
 
 #mybatis plus配置
 mybatis-plus:
